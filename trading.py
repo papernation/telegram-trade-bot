@@ -3,7 +3,7 @@ import re
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.environ["8638934247:AAE1HCR938-b1RhNUUaa4yLHq7KE5t5Pgaw"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 
 def get_value(text, keys):
